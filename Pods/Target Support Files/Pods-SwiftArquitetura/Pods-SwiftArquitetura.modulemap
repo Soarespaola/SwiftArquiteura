@@ -1,0 +1,6 @@
+framework module Pods_SwiftArquitetura {
+  umbrella header "Pods-SwiftArquitetura-umbrella.h"
+
+  export *
+  module * { export * }
+}
