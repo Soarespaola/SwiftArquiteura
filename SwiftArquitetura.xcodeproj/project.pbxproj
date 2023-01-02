@@ -13,6 +13,9 @@
 		53AE8E602963275600E4E080 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53AE8E5E2963275600E4E080 /* Main.storyboard */; };
 		53AE8E622963275E00E4E080 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53AE8E612963275E00E4E080 /* Assets.xcassets */; };
 		53AE8E652963275E00E4E080 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53AE8E632963275E00E4E080 /* LaunchScreen.storyboard */; };
+		53AE8E7229636CC100E4E080 /* UserProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53AE8E7129636CC100E4E080 /* UserProvider.swift */; };
+		53AE8E7729636D9200E4E080 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53AE8E7629636D9200E4E080 /* UserModel.swift */; };
+		53AE8E7A2963732900E4E080 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53AE8E792963732800E4E080 /* Constants.swift */; };
 		820D01940AE70CA9D6F7381B /* Pods_SwiftArquitetura.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95727D11ED6D6BAEF84C8A48 /* Pods_SwiftArquitetura.framework */; };
 /* End PBXBuildFile section */
 
@@ -26,6 +29,9 @@
 		53AE8E612963275E00E4E080 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		53AE8E642963275E00E4E080 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		53AE8E662963275E00E4E080 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		53AE8E7129636CC100E4E080 /* UserProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProvider.swift; sourceTree = "<group>"; };
+		53AE8E7629636D9200E4E080 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		53AE8E792963732800E4E080 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		95727D11ED6D6BAEF84C8A48 /* Pods_SwiftArquitetura.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftArquitetura.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4A82D5DF751001CD57B12A8 /* Pods-SwiftArquitetura.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftArquitetura.release.xcconfig"; path = "Target Support Files/Pods-SwiftArquitetura/Pods-SwiftArquitetura.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -63,6 +69,7 @@
 		53AE8E572963275600E4E080 /* SwiftArquitetura */ = {
 			isa = PBXGroup;
 			children = (
+				53AE8E78296372F200E4E080 /* Infrastructure */,
 				53AE8E6D29633EF300E4E080 /* API */,
 				53AE8E6C29633EB700E4E080 /* Source */,
 				53AE8E662963275E00E4E080 /* Info.plist */,
@@ -86,6 +93,7 @@
 		53AE8E6D29633EF300E4E080 /* API */ = {
 			isa = PBXGroup;
 			children = (
+				53AE8E7329636D4100E4E080 /* Model */,
 				53AE8E7029633F3100E4E080 /* Business */,
 				53AE8E6F29633F2100E4E080 /* Manager */,
 				53AE8E6E29633F0D00E4E080 /* Provider */,
@@ -96,6 +104,7 @@
 		53AE8E6E29633F0D00E4E080 /* Provider */ = {
 			isa = PBXGroup;
 			children = (
+				53AE8E7129636CC100E4E080 /* UserProvider.swift */,
 			);
 			path = Provider;
 			sourceTree = "<group>";
@@ -112,6 +121,22 @@
 			children = (
 			);
 			path = Business;
+			sourceTree = "<group>";
+		};
+		53AE8E7329636D4100E4E080 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				53AE8E7629636D9200E4E080 /* UserModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		53AE8E78296372F200E4E080 /* Infrastructure */ = {
+			isa = PBXGroup;
+			children = (
+				53AE8E792963732800E4E080 /* Constants.swift */,
+			);
+			path = Infrastructure;
 			sourceTree = "<group>";
 		};
 		9CC125CB79F9AA508E2A1863 /* Pods */ = {
@@ -249,6 +274,9 @@
 				53AE8E5D2963275600E4E080 /* ViewController.swift in Sources */,
 				53AE8E592963275600E4E080 /* AppDelegate.swift in Sources */,
 				53AE8E5B2963275600E4E080 /* SceneDelegate.swift in Sources */,
+				53AE8E7729636D9200E4E080 /* UserModel.swift in Sources */,
+				53AE8E7229636CC100E4E080 /* UserProvider.swift in Sources */,
+				53AE8E7A2963732900E4E080 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
