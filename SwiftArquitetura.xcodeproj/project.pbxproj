@@ -16,6 +16,7 @@
 		53AE8E7229636CC100E4E080 /* UserProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53AE8E7129636CC100E4E080 /* UserProvider.swift */; };
 		53AE8E7729636D9200E4E080 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53AE8E7629636D9200E4E080 /* UserModel.swift */; };
 		53AE8E7A2963732900E4E080 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53AE8E792963732800E4E080 /* Constants.swift */; };
+		53AE8E7C29638BEE00E4E080 /* UserBusiness.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53AE8E7B29638BEE00E4E080 /* UserBusiness.swift */; };
 		820D01940AE70CA9D6F7381B /* Pods_SwiftArquitetura.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95727D11ED6D6BAEF84C8A48 /* Pods_SwiftArquitetura.framework */; };
 /* End PBXBuildFile section */
 
@@ -32,6 +33,7 @@
 		53AE8E7129636CC100E4E080 /* UserProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProvider.swift; sourceTree = "<group>"; };
 		53AE8E7629636D9200E4E080 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
 		53AE8E792963732800E4E080 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		53AE8E7B29638BEE00E4E080 /* UserBusiness.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserBusiness.swift; sourceTree = "<group>"; };
 		95727D11ED6D6BAEF84C8A48 /* Pods_SwiftArquitetura.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftArquitetura.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4A82D5DF751001CD57B12A8 /* Pods-SwiftArquitetura.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftArquitetura.release.xcconfig"; path = "Target Support Files/Pods-SwiftArquitetura/Pods-SwiftArquitetura.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -119,6 +121,7 @@
 		53AE8E7029633F3100E4E080 /* Business */ = {
 			isa = PBXGroup;
 			children = (
+				53AE8E7B29638BEE00E4E080 /* UserBusiness.swift */,
 			);
 			path = Business;
 			sourceTree = "<group>";
@@ -277,6 +280,7 @@
 				53AE8E7729636D9200E4E080 /* UserModel.swift in Sources */,
 				53AE8E7229636CC100E4E080 /* UserProvider.swift in Sources */,
 				53AE8E7A2963732900E4E080 /* Constants.swift in Sources */,
+				53AE8E7C29638BEE00E4E080 /* UserBusiness.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
