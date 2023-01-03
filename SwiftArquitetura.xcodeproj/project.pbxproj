@@ -18,6 +18,7 @@
 		53AE8E7A2963732900E4E080 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53AE8E792963732800E4E080 /* Constants.swift */; };
 		53AE8E7C29638BEE00E4E080 /* UserBusiness.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53AE8E7B29638BEE00E4E080 /* UserBusiness.swift */; };
 		53AE8E7E2964758D00E4E080 /* UserManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53AE8E7D2964758D00E4E080 /* UserManager.swift */; };
+		53AE8E8329648DDA00E4E080 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 53AE8E8229648DDA00E4E080 /* GoogleService-Info.plist */; };
 		820D01940AE70CA9D6F7381B /* Pods_SwiftArquitetura.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95727D11ED6D6BAEF84C8A48 /* Pods_SwiftArquitetura.framework */; };
 /* End PBXBuildFile section */
 
@@ -36,6 +37,7 @@
 		53AE8E792963732800E4E080 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		53AE8E7B29638BEE00E4E080 /* UserBusiness.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserBusiness.swift; sourceTree = "<group>"; };
 		53AE8E7D2964758D00E4E080 /* UserManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserManager.swift; sourceTree = "<group>"; };
+		53AE8E8229648DDA00E4E080 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		95727D11ED6D6BAEF84C8A48 /* Pods_SwiftArquitetura.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftArquitetura.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4A82D5DF751001CD57B12A8 /* Pods-SwiftArquitetura.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftArquitetura.release.xcconfig"; path = "Target Support Files/Pods-SwiftArquitetura/Pods-SwiftArquitetura.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -77,6 +79,7 @@
 				53AE8E6D29633EF300E4E080 /* API */,
 				53AE8E6C29633EB700E4E080 /* Source */,
 				53AE8E662963275E00E4E080 /* Info.plist */,
+				53AE8E8229648DDA00E4E080 /* GoogleService-Info.plist */,
 			);
 			path = SwiftArquitetura;
 			sourceTree = "<group>";
@@ -223,6 +226,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				53AE8E652963275E00E4E080 /* LaunchScreen.storyboard in Resources */,
+				53AE8E8329648DDA00E4E080 /* GoogleService-Info.plist in Resources */,
 				53AE8E622963275E00E4E080 /* Assets.xcassets in Resources */,
 				53AE8E602963275600E4E080 /* Main.storyboard in Resources */,
 			);
