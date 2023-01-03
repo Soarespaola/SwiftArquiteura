@@ -13,7 +13,7 @@ protocol UserPrividerProtocol {
     func register(parameters: [AnyHashable: Any], completionHandler: @escaping(Result<UserModel, Error>) -> Void)
 }
 
-class UserProvider { // O provider vai interagir com a api fazendo a chamada 
+class UserProvider { // O provider vai interagir com a api fazendo a chamada
     lazy var auth = Auth.auth()
     
     func login(parameters : [AnyHashable: Any], completionHandler: @escaping (Result<UserModel, Error>) -> Void) {
